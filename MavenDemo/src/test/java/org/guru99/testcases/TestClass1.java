@@ -16,6 +16,7 @@ public class TestClass1 {
 	public void m2()
 	{
 		System.out.println("TestClass1");
+		Assert.assertTrue(true);
 	}
 	
 	@Test
