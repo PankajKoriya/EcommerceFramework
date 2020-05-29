@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test suite setup is started]]>
+    </line>
+    <line>
+      <![CDATA[Test suite setup is completed]]>
+    </line>
+    <line>
+      <![CDATA[Application is started in browser]]>
+    </line>
+    <line>
+      <![CDATA[Application is opened in the browser]]>
+    </line>
+    <line>
+      <![CDATA[After Test method execution is started]]>
+    </line>
+    <line>
+      <![CDATA[After Test method execution is ended]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-05-28T13:01:29 IST" name="Default suite" finished-at="2020-05-28T13:04:36 IST" duration-ms="187321">
+    <groups>
+    </groups>
+    <test started-at="2020-05-28T13:01:29 IST" name="Default test" finished-at="2020-05-28T13:04:36 IST" duration-ms="187321">
+      <class name="org.guru99.testcases.SaveOrder">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.guru99.testcases.SaveOrder@48aca48b]" started-at="2020-05-28T13:01:27 IST" name="setUp" finished-at="2020-05-28T13:01:29 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test suite setup is started]]>
+            </line>
+            <line>
+              <![CDATA[Test suite setup is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startApp()[pri:0, instance:org.guru99.testcases.SaveOrder@48aca48b]" started-at="2020-05-28T13:01:29 IST" name="startApp" finished-at="2020-05-28T13:01:41 IST" duration-ms="12411" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is started in browser]]>
+            </line>
+            <line>
+              <![CDATA[Application is opened in the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method signature="saveOrderAsPdf()[pri:0, instance:org.guru99.testcases.SaveOrder@48aca48b]" started-at="2020-05-28T13:01:41 IST" name="saveOrderAsPdf" finished-at="2020-05-28T13:04:31 IST" duration-ms="170386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrderAsPdf -->
+        <test-method is-config="true" signature="verifyTest(org.testng.ITestResult)[pri:0, instance:org.guru99.testcases.SaveOrder@48aca48b]" started-at="2020-05-28T13:04:31 IST" name="verifyTest" finished-at="2020-05-28T13:04:35 IST" duration-ms="3517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveOrderAsPdf status=SUCCESS method=SaveOrder.saveOrderAsPdf()[pri:0, instance:org.guru99.testcases.SaveOrder@48aca48b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[After Test method execution is started]]>
+            </line>
+            <line>
+              <![CDATA[After Test method execution is ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.guru99.testcases.SaveOrder@48aca48b]" started-at="2020-05-28T13:04:35 IST" name="tearDown" finished-at="2020-05-28T13:04:36 IST" duration-ms="911" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.guru99.testcases.SaveOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
